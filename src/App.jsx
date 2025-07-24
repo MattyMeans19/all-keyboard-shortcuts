@@ -5,7 +5,7 @@ import Footer from './Footer';
 function App() {
 
   return (
-    <div className='w-screen flex flex-col gap-25 relative'>
+    <div className='w-screen h-screen flex flex-col gap-25 relative'>
       <NavBar />
       <div className='flex flex-col gap-15 text-center text-3xl border-15 border-double m-10 p-15 rounded-4xl grow'>
         <h1>Welcome to the best site for finding All Keyboard Shortcuts!</h1>
