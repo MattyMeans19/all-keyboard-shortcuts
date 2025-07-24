@@ -13,7 +13,7 @@ function OperatingSystems(){
     return(
         <div className='w-screen h-screen flex flex-col'>
             <NavBar />
-            <div className="place-self-center mt-25 grow">
+            <div className="place-items-start mt-20 justify-center grow flex flex-col md:flex-row">
                 <button className="hover:cursor-pointer mr-5">
                     <img src={windowsIcon}></img>
                     <span>Windows 11</span>
