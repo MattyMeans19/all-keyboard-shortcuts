@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.BG{
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+    background-color: rgba(137, 43, 226, 0.637);
+}
