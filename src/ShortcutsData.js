@@ -1138,10 +1138,7 @@ export const windows = [
         name: "Blender(V4.5)",
         description: "3D animation Software",
         shortcuts: [
-    {
-        
-        category: "Properties",
-        description: "The following shortcuts can be pressed while hovering the mouse cursor over an editable field.",
+        {
         shortcuts: [
             {
                 keys: "Control + C",
@@ -1181,8 +1178,7 @@ export const windows = [
             }
         ]
     },
-    {
-        
+    {   
         category: "Animation",
         description: "The following shortcuts can be pressed while hovering the mouse cursor over an editable field.",
         shortcuts: [
@@ -1486,11 +1482,11 @@ export const windows = [
                 keys: "Shift + AccentGrave(`)",
                 action: "Start Fly/Walk Navigation."
             }
-        ]
-    }
-]
+          ]
       }
     ]
+      }
+  ]
   }
 ];
 
