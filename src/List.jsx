@@ -8,7 +8,7 @@ function List(props){
     }
 
     return(
-        <div className="place-self-center w-[95%]">
+        <div className="place-self-center w-[95%] bg-white mb-5">
             <div className="min-w-full bg-gray-300 flex flex-wrap place-items-center md:flex-nowrap border-1">
                 <button onClick={() => (changeActive())}>{active ? "🔽" : "▶️"}</button>
                 <h2 className="text-3xl text-center p-5">{props.list.category}:</h2>
@@ -24,7 +24,7 @@ function List(props){
                     <span className="border-1 p-5 text-2xl text-center place-content-center">{shortcut.keys}</span>
                     <span className="border-1 p-5 text-2xl">{shortcut.action}</span>
                 </div>
-                    ))};
+                    ))}
             </div> 
         </div>
             

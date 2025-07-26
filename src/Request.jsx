@@ -1,11 +1,14 @@
 import React from "react";
 import NavBar from "./NavBar";
+import { Contact } from "./Email";
 
 function Request(){
     return(
-        <div>
+        <div className="flex flex-col gap-10 w-screen h-screen BG dm-serif-text-regular">
             <NavBar />
-            <h1>Request Page In Progress!</h1>
+            <div className="grow w-[75%] place-self-center">
+                <Contact />
+            </div>
         </div>
     )
 }

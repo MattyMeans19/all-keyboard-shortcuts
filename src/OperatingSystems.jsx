@@ -25,9 +25,9 @@ function OperatingSystems(){
     }
 
     return(
-        <div className='w-full h-screen flex flex-col'>
+        <div className='w-full h-screen flex flex-col dm-serif-text-regular'>
             <NavBar />
-            <div className="mt-10 py-15 flex flex-col md:flex-row border-y-10 border-gray-500/50 rounded-2xl w-full">
+            <div className="mt-10 py-15 flex flex-col md:flex-row border-y-10 border-gray-500/50 rounded-2xl w-full BG">
                 <h1 className="text-3xl place-content-center basis-1/2 ml-[1%] text-center underline underline-offset-8 mb-5">1.) Select your Operating System:</h1>
                 <button className="hover:cursor-pointer sm:mr-5 text-2xl underline" onClick={() => (windowsSelected())}>
                     <img src={windowsIcon} className={[`place-self-center size-[140px] ${windowsActive ? 'border-2 ': 'border-0' }`]}></img>
@@ -38,7 +38,7 @@ function OperatingSystems(){
                     <span>MacOs</span>
                 </button> 
             </div>
-            <div className="grow place-self-center flex flex-col gap-5 my-5 w-full">
+            <div className="grow place-self-center flex flex-col gap-5 my-5 w-full BG">
                 <h1 className="text-3xl text-center underline underline-offset-8">2.) Select the category</h1>
                 {osSelection.map((list, index) =>(
                     <List 
