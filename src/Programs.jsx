@@ -34,12 +34,12 @@ function Programs(){
     return(
         <div className='w-full h-screen flex flex-col dm-serif-text-regular'>
             <NavBar />
-            <div className="mt-10 py-15 flex flex-col border-y-10 border-gray-500/50 rounded-2xl w-full BG">
+            <div className="mt-10 py-15 flex flex-col border-y-10 border-gray-500/50 rounded-2xl h-[80%] w-full BG">
                 <h1 className="text-3xl place-content-center ml-[1%] text-center underline underline-offset-8 mb-5">1.) Select an Application:</h1>
-                <div className="flex flex-wrap overflow-y-scroll w-[90%] place-self-center bg-white border-1 p-5">
+                <div className="flex flex-wrap overflow-y-scroll h-[90%] w-[90%] place-self-center bg-white border-1 p-5 md:gap-25">
                    {programs.map((app, index) => (
-                        <div key={index}>
-                            <button className="hover:cursor-pointer sm:ml-5 text-[1.25rem] border-double border-5 rounded-3xl p-5" onClick={() => (appSelected(app.name))}>
+                        <div key={index} className="basis-1/2 w-1/2 md:basis-1/5 md:w-1/5">
+                            <button className="hover:cursor-pointer sm:ml-5 text-[1.25rem] border-double border-5 rounded-3xl w-full p-5" onClick={() => (appSelected(app.name))}>
                                 <img src={app.icon} className={[`place-self-center size-[80px]`]}></img>
                                 <span>{app.name}</span>
                             </button> 

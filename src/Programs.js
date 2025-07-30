@@ -702,5 +702,233 @@ export const programs = [
           ]
       }
         ]
+    },
+    {
+        name: "Excel",
+        icon: "/icons8-excel-144.png",
+        windows:[
+            {
+        category: "Frequently used shortcuts",
+        description: "This table lists the most frequently used shortcuts in Excel.",
+        shortcutData: [
+    {
+        keys: "Control + W",
+        action: "Close a workbook."
+    },
+    {
+        keys: "Control + O",
+        action: "Open a workbook."
+    },
+    {
+        keys: "Alt + H",
+        action: "Go to the Home tab."
+    },
+    {
+        keys: "Control + S",
+        action: "Save a workbook."
+    },
+    {
+        keys: "Control + C",
+        action: "Copy selection."
+    },
+    {
+        keys: "Control + V",
+        action: "Paste selection."
+    },
+    {
+        keys: "Control + Z",
+        action: "Undo recent action."
+    },
+    {
+        keys: "Delete",
+        action: "Remove cell contents."
+    },
+    {
+        keys: "Alt + H, H",
+        action: "Choose a fill color."
+    },
+    {
+        keys: "Control + X",
+        action: "Cut selection."
+    },
+    {
+        keys: "Alt + N",
+        action: "Go to the Insert tab."
+    },
+    {
+        keys: "Control + B",
+        action: "Apply bold formatting."
+    },
+    {
+        keys: "Alt + H, A, C",
+        action: "Center align cell contents."
+    },
+    {
+        keys: "Alt + P",
+        action: "Go to the Page Layout tab."
+    },
+    {
+        keys: "Alt + A",
+        action: "Go to the Data tab."
+    },
+    {
+        keys: "Alt + W",
+        action: "Go to the View tab."
+    },
+    {
+        keys: "Shift + F10 OR Windows key(\u229E)",
+        action: "Open the context menu."
+    },
+    {
+        keys: "Alt + H, B",
+        action: "Add borders."
+    },
+    {
+        keys: "Alt + H, D, C",
+        action: "Delete column."
+    },
+    {
+        keys: "Alt + M",
+        action: "Go to the Formula tab."
+    },
+    {
+        keys: "Control + 9",
+        action: "Hide the selected rows."
+    },
+    {
+        keys: "Control + 0",
+        action: "Hide the selected columns."
     }
+]
+    },
+    {
+        category: "Use the Access keys for ribbon tabs",
+        description: "To go directly to a tab on the ribbon(toolbar), press one of the following access keys. Additional tabs might appear depending on your selection in the worksheet.",
+        shortcutData: [
+    {
+        keys: "Alt + Q, then enter the search term.",
+        action: "Move to the Tell me or Search field on the ribbon and type a search term for assistance or Help content."
+    },
+    {
+        keys: "Alt + F",
+        action: "Open the File menu."
+    },
+    {
+        keys: "Alt + H",
+        action: "Open the Home tab and format text and numbers and use the Find tool."
+    },
+    {
+        keys: "Alt + N",
+        action: "Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes."
+    },
+    {
+        keys: "Alt + P",
+        action: "Open the Page Layout tab and work with themes, page setup, scale, and alignment."
+    },
+    {
+        keys: "Alt + M",
+        action: "Open the Formulas tab and insert, trace, and customize functions and calculations."
+    },
+    {
+        keys: "Alt + A",
+        action: "Open the Data tab and connect to, sort, filter, analyze, and work with data."
+    },
+    {
+        keys: "Alt + R",
+        action: "Open the Review tab and check spelling, add notes and threaded comments, and protect sheets and workbooks."
+    },
+    {
+        keys: "Alt + W",
+        action: "Open the View tab and preview page breaks and layouts, show and hide gridlines and headings, set zoom magnification, manage windows and panes, and view macros."
+    }
+]
+    },
+     {
+        category: "Work in the ribbon with the keyboard",
+        description: "Navigate through the ribbon(toolbar).",
+        shortcutData: [
+    {
+        keys: "Alt or F10. To move to a different tab, use access keys or the arrow keys.",
+        action: "Select the active tab on the ribbon and activate the access keys."
+    },
+    {
+        keys: "Tab key or Shift + Tab",
+        action: "Move the focus to commands on the ribbon or add-in pane."
+    },
+    {
+        keys: "Arrow keys",
+        action: "Move down, up, left, or right, respectively, among the items on the ribbon."
+    },
+    {
+        keys: "Ctrl + Shift + F10",
+        action: "Show the tooltip for the ribbon element currently in focus."
+    },
+    {
+        keys: "Spacebar OR Enter",
+        action: "Activate a selected button."
+    },
+    {
+        keys: "Down arrow key",
+        action: "Open the list for a selected command."
+    },
+    {
+        keys: "Alt + Down arrow key",
+        action: "Open the menu for a selected button."
+    },
+    {
+        keys: "Down arrow key",
+        action: "When a menu or submenu is open, move to the next command."
+    },
+    {
+        keys: "Ctrl + F1",
+        action: "Expand or collapse the ribbon."
+    },
+    {
+        keys: "Shift + F10 OR Windows Key",
+        action: "Open a context menu."
+    },
+    {
+        keys: "Left arrow key",
+        action: "Move to the submenu when a main menu is open or selected."
+    },
+    {
+        keys: "Ctrl + Left or Right arrow key",
+        action: "Move from one group of controls to another."
+    }
+]
+    },
+    
+        ],
+        mac: [
+
+        ]
+    },
+    {
+        name: "Word",
+        icon: "/icons8-word-144.png",
+        windows:[
+
+        ],
+        mac: [
+
+        ]
+    },{
+        name: "PowerPoint",
+        icon: "/icons8-powerpoint-144.png",
+        windows:[
+
+        ],
+        mac: [
+
+        ]
+    },{
+        name: "Outlook",
+        icon: "/icons8-outlook-144.png",
+        windows:[
+
+        ],
+        mac: [
+
+        ]
+    },
 ]
