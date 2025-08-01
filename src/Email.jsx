@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
+//email.js to for users to send requests.
 export const Contact = () => {
   const SERVICE_ID = "service_eenr7ii";
   const TEMPLATE_ID = "template_lc7c8sa";

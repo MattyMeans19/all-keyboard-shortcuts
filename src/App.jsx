@@ -2,6 +2,7 @@ import { useState } from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
+//landing page
 function App() {
 
   return (

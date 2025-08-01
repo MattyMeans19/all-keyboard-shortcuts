@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import NavBar from './NavBar'
 import Footer from './Footer';
 import macIcon from "/icons8-mac-150.png";
@@ -12,18 +12,21 @@ function OperatingSystems(){
     const [windowsActive, toggleWindowsActive] = useState(false);
     const [macActive, togglemacActive] = useState(false)
 
+    //change selection to Windows
     function windowsSelected(){
         changeSelection(windows);
         toggleWindowsActive(true);
         togglemacActive(false);
     }
 
+    //change selection to MacOS
     function macSelected(){
         changeSelection(mac);
         toggleWindowsActive(false);
         togglemacActive(true);
     }
 
+    //display OS selection buttons and list of available shortcuts
     return(
         <div className='w-full h-screen flex flex-col dm-serif-text-regular'>
             <NavBar />

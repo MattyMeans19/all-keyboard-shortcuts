@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 
+//NavBar that will display on every screen
 function NavBar(){
     return(
       <div className='flex flex-col lg:flex-row justify-around gap-5 pt-10 border-b-10 border-double BG w-full'>

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router";
 
-
+//footer with link to request page
 function Footer(){
     return(
         <div className="text-center w-full text-2xl bg-purple-400 px-5">

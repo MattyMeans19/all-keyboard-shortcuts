@@ -3,10 +3,12 @@ import React, {useState} from "react";
 function List(props){
     const [active, toggleActive] = useState(false)
 
+    //changes whether or not the list is collapsed
     function changeActive(){
         toggleActive(!active);
     }
 
+    //lists each object in the list array
     return(
         <div className="place-self-center w-[95%] bg-white mb-5">
             <div className="min-w-full bg-gray-300 flex flex-wrap place-items-center md:flex-nowrap border-1">
