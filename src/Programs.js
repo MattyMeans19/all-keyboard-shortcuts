@@ -1,3 +1,6 @@
+//JSON data for each application, with separate arrays for each OS. 
+//Some were built by manual input, some using Google Sheets, and others using Gemini AI
+
 export const programs = [
     {
         name: "Blender(v4.5)",
