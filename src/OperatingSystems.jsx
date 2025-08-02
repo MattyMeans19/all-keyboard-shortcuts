@@ -1,6 +1,4 @@
 import React, {useState} from "react";
-import NavBar from './NavBar'
-import Footer from './Footer';
 import macIcon from "/icons8-mac-150.png";
 import windowsIcon from "/icons8-windows-144.png";
 import {windows, mac} from "./ShortcutsData";
@@ -28,8 +26,7 @@ function OperatingSystems(){
 
     //display OS selection buttons and list of available shortcuts
     return(
-        <div className='w-full h-screen flex flex-col dm-serif-text-regular'>
-            <NavBar />
+        <div className='w-full h-screen flex flex-col dm-serif-text-regular grow'>
             <div className="mt-10 py-15 flex flex-col md:flex-row border-y-10 border-gray-500/50 rounded-2xl w-full BG">
                 <h1 className="text-3xl place-content-center basis-1/2 ml-[1%] text-center underline underline-offset-8 mb-5">1.) Select your Operating System:</h1>
                 <button className="hover:cursor-pointer sm:mr-5 text-2xl underline" onClick={() => (windowsSelected())}>
@@ -50,7 +47,6 @@ function OperatingSystems(){
                     />
                 ))}
             </div>
-            <Footer />
         </div>
     )
 }

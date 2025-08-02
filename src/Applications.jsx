@@ -7,7 +7,7 @@ import { programs } from "./Programs";
 import List from "./List";
 
 
-function Programs(){
+function Applications(){
     const [appSelection, changeApp] = useState()
     const [windowsActive, toggleWindowsActive] = useState(false);
     const [macActive, togglemacActive] = useState(false)
@@ -51,8 +51,7 @@ function Programs(){
 
     //display relevant lists depending on OS and App selected
     return(
-        <div className='w-full h-screen flex flex-col dm-serif-text-regular'>
-            <NavBar />
+        <div className='w-full h-screen flex flex-col dm-serif-text-regular grow'>
 
             <div className="grow place-content-center flex flex-col gap-5 my-5 p-10 w-full BG">
                 <h1 className="text-3xl text-center underline underline-offset-8">1.)Select an Operating System</h1>
@@ -91,9 +90,8 @@ function Programs(){
                     ))}                
             </div>
 
-            <Footer />
         </div>
     )
 }
 
-export default Programs;
+export default Applications;
