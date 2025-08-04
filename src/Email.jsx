@@ -37,7 +37,7 @@ export const Contact = () => {
       className="flex items-center justify-center p-5"
     >
         <div className="px-4 w-full p-6">
-          <h2 className="text-6xl p-5 mb-8 border-10 rounded-3xl border-double text-center bg-white">
+          <h2 className="text-3xl md:text-6xl p-5 mb-8 border-10 rounded-3xl border-double text-center bg-white">
             Don't see an application or operating system you need?
             Feel free to send an email with a request for the specific system you'd like to see added, or just to let us know what you think about this site!
           </h2>
