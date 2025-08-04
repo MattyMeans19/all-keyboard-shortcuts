@@ -12,6 +12,7 @@ function Applications(){
     const [windowsActive, toggleWindowsActive] = useState(false);
     const [macActive, togglemacActive] = useState(false)
     const [list, changeList] = useState([])
+    const windowsKey = "Windows Key(\u229E)"
 
     //change shortcuts to windows format
     function windowsSelected(){
@@ -51,9 +52,9 @@ function Applications(){
 
     //display relevant lists depending on OS and App selected
     return(
-        <div className='w-full h-screen flex flex-col dm-serif-text-regular grow'>
+        <div className='w-[95%] place-self-center flex flex-col dm-serif-text-regular grow'>
 
-            <div className="grow place-content-center flex flex-col gap-5 my-5 p-10 w-full BG">
+            <div className="grow place-content-center flex flex-col gap-5 my-5 p-10 w-full bg-white border-10 border-gray-500/50 rounded-2xl">
                 <h1 className="text-3xl text-center underline underline-offset-8">1.)Select an Operating System</h1>
                 <div className="flex flex-col md:flex-row flex-nowrap place-content-center">
                     <button className="hover:cursor-pointer sm:mr-5 text-2xl underline" onClick={() => (windowsSelected())}>
@@ -68,10 +69,10 @@ function Applications(){
                     </button>  
                 </div>
             </div>
-
-            <div className="mt-10 py-15 flex flex-col gap-10 border-y-10 border-gray-500/50 rounded-2xl mb-5 w-full BG">
+            <span className={[`${macActive ? 'visible' : 'hidden'} place-self-center text-red-600 text-2xl`]}>Note: If you are using MacOS with a standard/Windows keyboard, Command(⌘) will be the {windowsKey}.</span>
+            <div className="mt-10 py-15 flex flex-col gap-10 border-10 border-gray-500/50 rounded-2xl mb-5 w-full bg-white">
                 <h1 className="text-3xl place-content-center ml-[1%] text-center underline underline-offset-8 mb-5">2.) Select an Application:</h1>
-                <div className="flex flex-wrap overflow-y-scroll h-[90%] w-[90%] place-self-center bg-white border-5 p-5 md:gap-25">
+                <div className="flex flex-wrap overflow-y-scroll h-[90%] w-[90%] place-self-center p-5 md:gap-25">
                    {programs.map((app, index) => (
                         <div key={index} className="basis-1/2 w-1/2 md:basis-1/5 md:w-1/5">
                             <button className="hover:cursor-pointer sm:ml-5 text-[1.25rem] border-double border-5 rounded-3xl w-full p-5" onClick={() => (appSelected(app.name))}>

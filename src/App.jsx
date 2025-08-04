@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className='w-screen h-screen flex flex-col gap-25 relative dm-serif-text-regular'>
+    <div className='w-full min-h-screen flex flex-col gap-25 dm-serif-text-regular BG'>
       <NavBar 
         page = {switchPage}
       />

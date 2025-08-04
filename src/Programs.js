@@ -2750,7 +2750,7 @@ export const programs = [
         mac: [
   {
     category: "Frequently used shortcuts",
-    description: "Common shortcuts for tasks like opening, saving, and creating documents (Control+O, Control+N, Control+S), editing text (Control+X, Control+C, Control+V), and formatting (Control+B for bold, Control+I for italic). It also includes shortcuts for zooming and undoing/redoing actions.",
+    description: "Common shortcuts for tasks like opening, saving, and creating documents , editing text , and formatting. It also includes shortcuts for zooming and undoing/redoing actions.",
     shortcutData: [
       { keys: "Command(⌘)  +  O", action: "Open a document" },
       { keys: "Command(⌘)  +  N", action: "Create a new document" },
@@ -2780,18 +2780,18 @@ export const programs = [
   },
   {
     category: "Use the Access Keys for ribbon tabs",
-    description: "Shortcuts that use the Alt key to open specific tabs on the ribbon, such as Alt + H for the Home tab and Alt + N for the Insert tab.",
+    description: "Shortcuts that use the Option key to open specific tabs on the ribbon",
     shortcutData: [
-      { keys: "Alt  +  Q", action: "Open the Tell Me or Search field on the Ribbon to search for assistance or Help content." },
-      { keys: "Alt  +  F", action: "Open the File page to use Backstage view." },
-      { keys: "Alt  +  H", action: "Open the Home tab to use common formatting commands, paragraph styles, and the Find tool." },
-      { keys: "Alt  +  N", action: "Open the Insert tab to insert tables, pictures and shapes, headers, or text boxes." },
-      { keys: "Alt  +  G", action: "Open the Design tab to use themes, colors, and effects, such as page borders." },
-      { keys: "Alt  +  P", action: "Open the Layout tab to work with page margins, page orientation, indentation, and spacing." },
-      { keys: "Alt  +  S", action: "Open the References tab to add a table of contents, footnotes, or a table of citations." },
-      { keys: "Alt  +  M", action: "Open the Mailings tab to manage Mail Merge tasks and to work with envelopes and labels." },
-      { keys: "Alt  +  R", action: "Open the Review tab to use Spell Check, set proofing languages, and to track and review changes to your document." },
-      { keys: "Alt  +  W", action: "Open the View tab to choose a document view or mode, such as Read Mode or Outline view. You can also set the zoom magnification and manage multiple document windows." },
+      { keys: "Option(⌥)  +  Q", action: "Open the Tell Me or Search field on the Ribbon to search for assistance or Help content." },
+      { keys: "Option(⌥)  +  F", action: "Open the File page to use Backstage view." },
+      { keys: "Option(⌥)  +  H", action: "Open the Home tab to use common formatting commands, paragraph styles, and the Find tool." },
+      { keys: "Option(⌥)  +  N", action: "Open the Insert tab to insert tables, pictures and shapes, headers, or text boxes." },
+      { keys: "Option(⌥)  +  G", action: "Open the Design tab to use themes, colors, and effects, such as page borders." },
+      { keys: "Option(⌥)  +  P", action: "Open the Layout tab to work with page margins, page orientation, indentation, and spacing." },
+      { keys: "Option(⌥)  +  S", action: "Open the References tab to add a table of contents, footnotes, or a table of citations." },
+      { keys: "Option(⌥)  +  M", action: "Open the Mailings tab to manage Mail Merge tasks and to work with envelopes and labels." },
+      { keys: "Option(⌥)  +  R", action: "Open the Review tab to use Spell Check, set proofing languages, and to track and review changes to your document." },
+      { keys: "Option(⌥)  +  W", action: "Open the View tab to choose a document view or mode, such as Read Mode or Outline view. You can also set the zoom magnification and manage multiple document windows." },
     ]
   },
   {
@@ -2799,13 +2799,13 @@ export const programs = [
     description: "Shortcuts for navigating and interacting with the ribbon itself, including moving between tabs and command groupings using arrow keys and Tab, and activating selected buttons with the Spacebar or Enter key.",
     shortcutData: [
       { keys: "F10", action: "Display the Key Tips to select the active tab on the ribbon." },
-      { keys: "Alt", action: "Display the Key Tips to select the active tab on the ribbon." },
+      { keys: "Option(⌥)", action: "Display the Key Tips to select the active tab on the ribbon." },
       { keys: "Tab or Shift  +  Tab", action: "Move the focus to commands on the ribbon." },
       { keys: "Command(⌘)  +  Left or Right arrow key", action: "Move between command groupings on the ribbon." },
       { keys: "Arrow keys", action: "Move among the items on the ribbon." },
       { keys: "Spacebar or Enter", action: "Activate the selected button." },
       { keys: "Down arrow key", action: "Open the list for the selected command." },
-      { keys: "Alt  +  Down arrow key", action: "Open the menu for the selected button." },
+      { keys: "Option(⌥)  +  Down arrow key", action: "Open the menu for the selected button." },
       { keys: "Down arrow key (when a menu or submenu is open)", action: "Move to the next command." },
       { keys: "Command(⌘)  +  F1", action: "Expand or collapse the ribbon." },
       { keys: "Shift  +  F10", action: "Open the context menu." },
@@ -2878,7 +2878,7 @@ export const programs = [
       { keys: "Command(⌘)  +  C", action: "Copy the selected content to the Clipboard." },
       { keys: "Command(⌘)  +  V", action: "Paste the contents of the Clipboard." },
       { keys: "Command(⌘)  +  Shift  +  V", action: "Paste text only." },
-      { keys: "Alt  +  F3", action: "Define an AutoText block with the selected content." },
+      { keys: "Option(⌥)  +  F3", action: "Define an AutoText block with the selected content." },
       { keys: "Command(⌘)  +  Option(⌥)  +  C", action: "Copy the selected text formatting." },
       { keys: "Command(⌘)  +  Option(⌥)  +  V", action: "Paste the selected text formatting." },
       { keys: "Command(⌘)  +  H", action: "Display the Replace dialog box." },
@@ -2938,7 +2938,7 @@ export const programs = [
   },
   {
     category: "Work with references, citations, and indexing",
-    description: "Shortcuts for tasks related to document references, such as marking a table of contents entry (Alt+Shift+O), marking a citation (Alt+Shift+I), and inserting footnotes (Cmd+Option+F) or endnotes (Cmd+Option+D).",
+    description: "Shortcuts for tasks related to document references.",
     shortcutData: [
       { keys: "Command(⌘)  +  Option(⌥)  +  O", action: "Mark a table of contents entry." },
       { keys: "Command(⌘)  +  Option(⌥)  +  I", action: "Mark a citation." },
@@ -3048,11 +3048,11 @@ export const programs = [
     category: "Working with views and panes",
     description: "Shortcuts for switching between different views and panes.",
     shortcutData: [
-      { keys: "Alt  +  F5", action: "Switch to Presenter view" },
+      { keys: "Option(⌥)  +  F5", action: "Switch to Presenter view" },
       { keys: "F5", action: "Switch to Slide Show" },
       { keys: "Control  +  Shift  +  Tab", action: "Toggle between Outline and Thumbnail views" },
       { keys: "Control  +  F1", action: "Switch to full screen (hide menus)" },
-      { keys: "Alt  +  F9", action: "Show or hide guides" },
+      { keys: "Option(⌥)  +  F9", action: "Show or hide guides" },
       { keys: "Shift  +  F9", action: "Show or hide the grid" },
       { keys: "F6", action: "Cycle clockwise through panes in the Normal view" },
       { keys: "Shift  +  F6", action: "Cycle counterclockwise through panes in the Normal view" },
