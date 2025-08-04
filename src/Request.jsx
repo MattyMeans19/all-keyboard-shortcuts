@@ -5,7 +5,7 @@ import { Contact } from "./Email";
 function Request(){
     return(
         <div className="flex flex-col gap-10 w-full h-full dm-serif-text-regular">
-            <div className="grow w-[75%] place-self-center">
+            <div className="grow md:w-[75%] place-self-center">
                 <Contact />
             </div>
         </div>
