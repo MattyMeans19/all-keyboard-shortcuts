@@ -1,4 +1,3 @@
-import { NavLink } from "react-router";
 import Home from "./Home";
 import OperatingSystems from "./OperatingSystems";
 import Applications from "./Applications";
