@@ -4,7 +4,7 @@
 export const programs = [
     {
         name: "Blender(v4.5)",
-        icon: "/icons8-blender-144.png",
+        icon: "./icons8-blender-144.png",
         windows:[
             {
         category: "Properties",
@@ -708,7 +708,7 @@ export const programs = [
     },
     {
         name: "Excel",
-        icon: "/icons8-excel-144.png",
+        icon: "./icons8-excel-144.png",
         windows:[
             {
         category: "Frequently used shortcuts",
@@ -2547,7 +2547,7 @@ export const programs = [
     },
     {
         name: "Word",
-        icon: "/icons8-word-144.png",
+        icon: "./icons8-word-144.png",
         windows:[
   {
     category: "Frequently used shortcuts",
@@ -2950,7 +2950,7 @@ export const programs = [
     },
     {
         name: "PowerPoint",
-        icon: "/icons8-powerpoint-144.png",
+        icon: "./icons8-powerpoint-144.png",
         windows:[
   {
     category: "Frequently used shortcuts",
@@ -3152,7 +3152,7 @@ export const programs = [
     },
     {
         name: "Outlook",
-        icon: "/icons8-outlook-144.png",
+        icon: "./icons8-outlook-144.png",
         windows:[
         {
             category: "Outlook for Windows",
