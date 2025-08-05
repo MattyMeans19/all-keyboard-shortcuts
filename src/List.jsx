@@ -10,9 +10,9 @@ function List(props){
 
     //lists each object in the list array
     return(
-        <div className="place-self-center w-[95%] bg-white mb-5">
+        <div className="place-self-center w-[95%] bg-white mb-5 cursor-pointer" onClick={() => (changeActive())}>
             <div className="min-w-full bg-gray-300 flex flex-wrap place-items-center md:flex-nowrap border-1">
-                <button onClick={() => (changeActive())}>{active ? "🔽" : "▶️"}</button>
+                <button>{active ? "🔽" : "▶️"}</button>
                 <h2 className="text-3xl text-center p-5">{props.list.category}:</h2>
                 <p className="text-2xl text-center p-5">{props.list.description}</p>
             </div>
