@@ -1,4 +1,3 @@
-import React from "react";
 import { Contact } from "./Email";
 
 //simple export of Email.jsx to be displayed
